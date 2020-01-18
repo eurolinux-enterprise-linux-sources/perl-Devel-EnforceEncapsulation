@@ -1,6 +1,6 @@
 Name:		perl-Devel-EnforceEncapsulation
 Version:	0.50
-Release:	7.1%{?dist}
+Release:	8%{?dist}
 Summary:	Find access violations to blessed objects
 Group:		Development/Libraries
 License:	GPL+ or Artistic
@@ -66,6 +66,9 @@ make test AUTHOR_TEST=1 AUTHOR_TEST_CDOLAN=1
 %{_mandir}/man3/Devel::EnforceEncapsulation.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.50-8
+- Mass rebuild 2013-12-27
+
 * Mon Aug 20 2012 Daniel Mach <dmach@redhat.com> - 0.50-7.1
 - Rebuild for perl 5.16
 
